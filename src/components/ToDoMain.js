@@ -4,7 +4,7 @@ import ListaTarefas from "./ListaTarefas";
 import AdicionarTarefas from "./AdicionarTarefas";
 
 export default function ToDoMain() {
-    const [tarefas, setTarefas] = useState(["Tomar banho to fedendo p krl", "postar musica"]);
+    const [tarefas, setTarefas] = useState(["1 - Escreva a tarefa", "2 - Marque ou desmarque como concluída"]);
 
     return (
         <div className="conteudo">
